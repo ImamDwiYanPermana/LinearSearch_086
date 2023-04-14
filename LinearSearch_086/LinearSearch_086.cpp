@@ -44,6 +44,17 @@ void LinearSearch() {
 
             }
         }
+        if (i == n) // lamgkah 4
+            cout << "\n" << item << "not found in the array\n";
+        cout << "\n NUmber of comprasions :" << comprasions << endl;
+
+        cout << "\n Continue search (y/n): ";
+        cin >> ch;
+    } while ((ch == 'y') || (ch == 'Y'));
+
+}
+
+
 
 
 
