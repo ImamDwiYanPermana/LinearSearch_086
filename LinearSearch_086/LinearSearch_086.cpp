@@ -35,6 +35,15 @@ void LinearSearch() {
         cin >> item;
 
         comprasions = 0;
+        for (i = 0; i < n; i++) {// Langkah 2,3 dan 4
+
+            comprasions++;
+            if (arr[i] == item) {// langkah 5A found 
+                cout << "\n" << item << "found at position" << (i + 1) << endl;
+                break;
+
+            }
+        }
 
 
 
