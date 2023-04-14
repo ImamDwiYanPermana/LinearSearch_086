@@ -28,6 +28,13 @@ void input()
 void LinearSearch() {
     char ch;
     int comprasions; // Number of comprasions
+    {
+        // Accept teh number be searched
+        cout << "\nEnter the element you want to search: ";
+        int item;
+        cin >> item;
+
+        comprasions = 0;
 
 
 
